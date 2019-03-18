@@ -1,1 +1,49 @@
 /* All styles for your Card Components live here */
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
+
+p{
+    margin:.6em;
+}
+.card-container{
+   
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content:flex-end;
+    
+    align-items: flex-end;
+}
+
+a:link{
+    text-decoration: none;
+    color:inherit;
+}
+
+a:visited{
+    text-decoration: none;
+    color:inherit;
+}
+.banner-container{
+    border: 1px solid lightgray;
+    width:600px;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+img.banner{
+    width:600px;
+    height:100%;
+   
+}
+
+.all-content{
+    padding:0px 10px;
+}
+
+.fo-link{
+    color:gray;
+}

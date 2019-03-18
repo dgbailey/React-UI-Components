@@ -1,1 +1,40 @@
 /* All styles for your header Components live here */
+header{
+    border:1px solid blue;
+    display:flex;
+    justify-content: space-between;
+}
+
+.nail{
+    height:40px;
+    width:40px;
+    margin-top:5px;
+
+}
+
+.thumb-bckg{
+    background: gainsboro;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    margin:10px;
+}
+
+.handle_container{
+    display:inline-flex;
+    align-items:center;
+}
+
+.twit_handle{
+    color:lightgray;
+    font-size: 14px;
+    
+}
+.headtxt{
+    width:600px;
+    
+}
