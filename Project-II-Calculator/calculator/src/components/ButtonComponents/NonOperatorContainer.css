@@ -1,0 +1,33 @@
+.nonop-container{
+   
+    height: 231px;
+    width: 227px;
+    
+    font-weight: normal;
+}
+
+.nonop-grid{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    height: 100px;
+    width: 227px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.number-btn{
+    
+   
+   
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+   
+}
+
+
+

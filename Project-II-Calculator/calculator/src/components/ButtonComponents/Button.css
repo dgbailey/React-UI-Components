@@ -1,0 +1,105 @@
+
+div .tob-btn{
+    grid-column: 1/span 3;
+    text-align: center;
+   border-bottom: 1px solid gray;
+    height: 48px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.number-btn{
+    text-align:center;
+    border-bottom:  1px solid gray;
+    border-right: 1px solid gray;
+    border-width: thin;
+    height: 48px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-btn{
+    grid-column: 1/span 3;
+    text-align: center;
+   
+   
+    height: 48px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divide{
+    grid-row: 1;
+    grid-column: 4;
+
+}
+
+.add{
+    grid-row:2;
+    grid-column: 4;
+}
+
+.product{
+    grid-row:3;
+    grid-column: 4;
+}
+
+.sub{
+    grid-row:4;
+    grid-column: 4;
+}
+
+.equal{
+    grid-row:5;
+    grid-column: 4;
+}
+
+.one{
+    grid-row:4;
+    grid-column: 1;
+}
+
+.two{
+    grid-row:4;
+    grid-column: 2;
+}
+
+.three{
+    grid-row:4;
+    grid-column: 3;
+}
+
+
+.four{
+    grid-row:3;
+    grid-column: 1;
+}
+
+.five{
+    grid-row:3;
+    grid-column: 2;
+}
+
+.six{
+    grid-row:3;
+    grid-column: 3;
+}
+.operator{
+   
+    
+    background: #a0001e;
+    width:62px;
+    color: white;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    
+}

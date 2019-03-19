@@ -1,0 +1,30 @@
+.global-display{
+    height: 304px;
+    width: 227px;
+    border:1px solid gray;
+}
+
+.io-display{
+    width:227px;
+    height:63px;
+    background:
+    #222222;
+    border:1px solid gray;
+    color:white;
+    text-align:bottom;
+   font-size: 40px;
+   display:flex;
+   align-items: flex-end;
+   justify-content: flex-end;
+   
+    /* border:1px solid lightgray; */
+}
+
+.num{
+    display:inline-block;
+    margin:10px;
+}
+
+.all-btns{
+    display:flex;
+}
