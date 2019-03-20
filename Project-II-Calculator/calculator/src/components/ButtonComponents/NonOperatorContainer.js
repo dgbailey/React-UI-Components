@@ -90,7 +90,7 @@ const NonOperatorContainer= ()=> {
         <div class='nonop-container'>
             <div class='nonop-grid'>
                 {btnArry.map(calcbutton => (
-                <GenButtons btnprops={calcbutton}/>))}
+                <GenButtons btnprops={calcbutton}/>))};
                 
             
             </div>
