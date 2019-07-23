@@ -1,0 +1,27 @@
+.footer-container{
+    display:flex;
+    color:gray;
+   
+    border-bottom: 1px solid lightgray;
+    width:100%
+   
+}
+
+
+.footer-icons{
+    margin-left:100px;
+    margin-bottom:10px;
+}
+.footer-icons i{
+    margin-right:100px;
+    font-size: 16px;
+
+    
+    
+}
+
+.footer-icons i::before{
+    padding-right:10px;
+   
+}
+
